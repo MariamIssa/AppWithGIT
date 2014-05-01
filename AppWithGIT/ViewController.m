@@ -28,6 +28,6 @@
 
 - (IBAction)click:(id)sender {
     self.label.text=self.text.text;
-    
+    NSLog(@"change...");
 }
 @end
